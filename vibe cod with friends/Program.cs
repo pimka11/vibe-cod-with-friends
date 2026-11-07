@@ -10,21 +10,23 @@ namespace vibe_cod_with_friends
     {
         static void Main(string[] args)
         {
+            var friends = new List<string>
+            {
+                "Oleksii Shmyhol",
+                "Yevhen Linchytskyi",
+                "Kyrylo Kikhtenko",
+                "Yaroslav Rykov",
+                "Vsevolod Diatlov"
+            };
 
+            Console.WriteLine("My friends:");
 
+            foreach (var friend in friends)
+            {
+                Console.WriteLine("- " + friend);
+            }
 
-
-
-
-
-
-
-
-
-
-
-
-            І
+            Console.ReadKey();
         }
     }
 }

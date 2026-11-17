@@ -229,7 +229,7 @@ namespace vibe_cod_with_friends
         }
     }
 
-    internal class Transaction
+    internal class Transaction // gowno
     {
         public DateTime Date { get; set; }
         public string Description { get; set; }
